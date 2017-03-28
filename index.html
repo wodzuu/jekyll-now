@@ -8,7 +8,7 @@ layout: default
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
       {% if post.image.teaser %}
-        <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/{{ post.image.teaser }}"></a>
+        <a href="{{ site.baseurl }}{{ post.url }}"><img class="cover" src="{{ site.baseurl }}/{{ post.image.teaser }}"></a>
       {% endif %}
       <div class="entry">
         {{ post.excerpt }}
